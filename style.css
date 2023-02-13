@@ -1,0 +1,142 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,900&display=swap");
+
+* {
+  font-family: "Poppins", cursive;
+}
+body {
+  color: azure;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(245, 137, 155);
+}
+.happy {
+  font-size: 6rem;
+  font-weight: 900;
+}
+.happy > span {
+  animation: glow 3.4s ease-in-out infinite;
+}
+@keyframes glow {
+  0%,
+  100% {
+    color: #fff;
+    text-shadow: 0 0 12px #39c6d6, 0 0 50px #39c6d6, 0 0 100px #39c6d6;
+  }
+  10%,
+  90% {
+    color: #111;
+    text-shadow: none;
+  }
+}
+.happy > span:nth-child(2) {
+  animation-delay: 0.2s;
+}
+.happy > span:nth-child(3) {
+  animation-delay: 0.4s;
+}
+.happy > span:nth-child(4) {
+  animation-delay: 0.6s;
+}
+.happy > span:nth-child(5) {
+  animation-delay: 0.8s;
+}
+
+.valentine {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.valentine > span {
+  animation: glow 3.4s ease-in-out infinite;
+}
+@keyframes glow {
+  0%,
+  100% {
+    color: #fff;
+    text-shadow: 0 0 12px #39c6d6, 0 0 50px #39c6d6, 0 0 100px #39c6d6;
+  }
+  10%,
+  90% {
+    color: #111;
+    text-shadow: none;
+  }
+}
+.valentine > span:nth-child(2) {
+  animation-delay: 1s;
+}
+.valentine > span:nth-child(3) {
+  animation-delay: 1.2s;
+}
+.valentine > span:nth-child(4) {
+  animation-delay: 1.4s;
+}
+.valentine > span:nth-child(5) {
+  animation-delay: 1.6s;
+}
+.valentine > span:nth-child(6) {
+  animation-delay: 1.8s;
+}
+.valentine > span:nth-child(7) {
+  animation-delay: 2s;
+}
+.valentine > span:nth-child(8) {
+  animation-delay: 2.2s;
+}
+.valentine > span:nth-child(9) {
+  animation-delay: 2.4s;
+}
+.valentine > span:nth-child(10) {
+  animation-delay: 2.6s;
+}
+.valentine > span:nth-child(11) {
+  animation-delay: 2.8s;
+}
+
+.day {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.day > span {
+  animation: glow 3.4s ease-in-out infinite;
+}
+@keyframes glow {
+  0%,
+  100% {
+    color: #fff;
+    text-shadow: 0 0 12px #39c6d6, 0 0 50px #39c6d6, 0 0 100px #39c6d6;
+  }
+  10%,
+  90% {
+    color: #111;
+    text-shadow: none;
+  }
+}
+.day > span:nth-child(2) {
+  animation-delay: 3s;
+}
+.day > span:nth-child(3) {
+  animation-delay: 3.2s;
+}
+
+
+@media screen and (max-width: 574px) {
+  .happy {
+    display: block;
+    font-size: 5rem;
+    font-weight: 500;
+    text-align: center;
+  }
+  .valentine {
+    font-size: 2rem;
+  }
+
+  .day {
+    font-size: 2rem;
+  }
+}
